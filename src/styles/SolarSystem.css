@@ -1,0 +1,18 @@
+.planets-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    text-align: center;
+  }
+  
+.planets-container:after {
+  background: white;
+  content: '';
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: calc(100vw - 15px);
+  z-index: -1;
+}

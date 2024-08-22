@@ -1,0 +1,12 @@
+.planet-card-container {
+  align-items: center;
+  display: grid;
+  grid-template-rows: 1fr 21px;
+  height: 325px;
+  justify-content: center;
+  }
+  
+.planet-card-image {
+  margin-top: 21px;
+  object-fit: contain;
+}

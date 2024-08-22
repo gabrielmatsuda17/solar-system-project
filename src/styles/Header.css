@@ -1,0 +1,19 @@
+.header {
+    font-size: 65x;
+    margin-bottom: 250px;
+    margin-top: 138px;
+    position: relative;
+    text-align: center;
+  }
+
+  .header:before {
+    border: 1px solid white;
+    border-radius: 50%;
+    content: '';
+    height: 307.45px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(60deg);
+    width: 120.07px;
+  }
